@@ -10,8 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   
-  <script src="assets/js/jquery-1.10.2.min.js"></script>
-  <!-- <script src="assets/js/jquery.maphighlight.min.js"></script> -->
+  <script src="assets/js/jquery-1.10.2.min.js"></script>  
   <script src="assets/js/imageMapResizer.min.js"></script>
   <link rel="stylesheet" href="assets/css/estilos_mapa.css">
   <script type="text/javascript">
@@ -28,24 +27,18 @@
         $('.area').hover(function () {
                 var id_estado = $(this).data('id-estado');
                 var meid = $(this).attr('id');
-                $('#edo').html(state_names[id_estado]);                
-                //$('#letras'+meid).addClass('listaEdosHover');
-                //$('.escudo').addClass('escudo_img');
+                $('#edo').html(state_names[id_estado]);                                
                 if(last_selected_id_estado!==null){
-                    //$('.escudo').removeClass(state_class[last_selected_id_estado]);
+
                 }
                 $('.escudo').addClass(meid);
             }).mouseout(function () {
-                var meid = $(this).attr('id');
-                //$('#letras'+meid).removeClass('listaEdosHover');
-                //$('.escudo').removeClass(meid);
+                var meid = $(this).attr('id');                
                 if(last_selected_id_estado!==null){
-                    $('#edo').html(state_names[last_selected_id_estado]);
-                    //$('.escudo').addClass(state_class[last_selected_id_estado]);
+                    $('#edo').html(state_names[last_selected_id_estado]);                    
                 }else{                    
                     $('#edo').html("&nbsp;");
-                    $('.escudo').removeClass('escudo_img');
-                    //$('.escudo').attr('class','escudo');
+                    $('.escudo').removeClass('escudo_img');                    
                 }
             });
 
@@ -54,8 +47,7 @@
         $('.area').click(function (e) {
                 e.preventDefault();
                 var $area = $(this);
-                var meid = $area.attr('id');
-                //$('.area').mouseout();
+                var meid = $area.attr('id');                
                 var data = $area.data('maphilight') || {};                    
                 if(areaLastClicked!==null){                        
                     var lastData = areaLastClicked.data('maphilight') || {};
@@ -63,8 +55,7 @@
                     $('#letras'+areaLastClicked.attr('id')).removeClass('listaEdosActive');                        
                 }
                 $('#letras'+meid).addClass('listaEdosActive');
-                areaLastClicked=$area;
-                //data.alwaysOn = !data.alwaysOn;
+                areaLastClicked=$area;                
                 data.alwaysOn = true;
                 $(this).data('maphilight', data).trigger('alwaysOn.maphilight');
                 last_selected_id_estado = $(this).data('id-estado');
