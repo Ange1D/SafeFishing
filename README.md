@@ -1,9 +1,8 @@
 # SafeFishing
- Proyecto para el Hackathon Hack The Ocean | LaunchX
+ Proyecto para el Hackathon Hack The Ocean | [Launch X](https://github.com/LaunchX-InnovaccionVirtual)
  
  ![](https://github.com/Ange1D/SafeFishing/blob/main/src/assets/imgs/logo.png)
  
-
 
 # Descripcion
 
@@ -51,6 +50,11 @@ graph TD;
 
 #### Dependencias
 
+Proyecto realizado con [Angular 13](https://angular.io/), [Angular Material](https://material.angular.io/), [Bootstrap](https://getbootstrap.com/) y [TypeScript](https://www.typescriptlang.org/) implementando Github Actions para su deploy en github pages
+
+
+ # Pagina
+[SafeFishing](https://ange1d.github.io/SafeFishing/home)
 
 *Autores:*
 
