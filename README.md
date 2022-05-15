@@ -11,6 +11,10 @@
 ### BuyerPersona
 
  ![](https://github.com/Ange1D/SafeFishing/blob/main/src/assets/imgs/BuyerPersona.png)
+ 
+ # Público Objetivo
+ 
+ ![](https://raw.githubusercontent.com/Ange1D/SafeFishing/main/src/assets/imgs/PublicoObjetivo.jpg)
 
 # Funciones
 
