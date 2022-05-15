@@ -7,6 +7,8 @@
 
 # Descripcion
 
+Investigación en la que se identifican las principales especies marinas de pesca en méxico, con fines de consumo o deportivo, las zonas en las que suelen frecuentar y sus temporadas de veda registradas de forma interactiva en un mapa donde al dar click en los estados de las zonas costeras se identifica la especie y su información para informar al usuario si está o no en temporada de veda, y las fechas de la misma.
+
 
 ### BuyerPersona
 
@@ -26,9 +28,9 @@
 
 Por lo que en este proyecto se realiza un mapa interactivo enfocado en las costas de México (Golfo, Pacifico norte y pacífico sur) con filtros de animales marinos que se suelen pescar en esas regiones y un indicador de colores que identifiquen las temporadas de veda de dichas especies para evitar su pesca.
 
-# Funciones
+# WIREFRAME
 
-# TO DO
+![imagen](https://github.com/Ange1D/SafeFishing/blob/main/src/assets/imgs/wireframe.jpg?raw=true)
 
 ## Instalacion
 
