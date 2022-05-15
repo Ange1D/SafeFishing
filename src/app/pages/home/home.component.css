@@ -1,0 +1,21 @@
+.logo {
+    background-color: #FFF; 
+    border-radius: 30px;
+  }
+
+
+  .greenFlag {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(21, 135, 61);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .redFlag {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(238, 8, 8);
+    border-radius: 50%;
+    display: inline-block;
+  }
