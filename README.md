@@ -42,3 +42,4 @@ Por lo que en este proyecto se realiza un mapa interactivo enfocado en las costa
 *Autores:*
 
 -[Ange1D](https://github.com/Ange1D).
+-[EAleman8](https://github.com/EAleman8).
