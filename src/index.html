@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-100">
 <head>
   <meta charset="utf-8">
   <title>SafeFishing</title>
@@ -9,8 +9,76 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <script src="assets/js/jquery-1.10.2.min.js"></script>
+  <!-- <script src="assets/js/jquery.maphighlight.min.js"></script> -->
+  <script src="assets/js/imageMapResizer.min.js"></script>
+  <link rel="stylesheet" href="assets/css/estilos_mapa.css">
+  <script type="text/javascript">
+     function selectState(id_estado){            
+          console.log('Se selecciono el estado: '+ id_estado+' - '+ state_names[id_estado]);
+          alert('Se selecciono el estado: '+ id_estado+' - '+ state_names[id_estado]);
+      }
+
+      var state_names = new Array();
+      state_names[1]="Aguascalientes";state_names[2]="Baja California";state_names[3]="Baja California Sur";state_names[4]="Campeche";state_names[5]="Coahuila";state_names[6]="Colima";state_names[7]="Chiapas";state_names[8]="Chihuahua";state_names[9]="Distrito Federal";state_names[10]="Durango";state_names[11]="Guanajuato";state_names[12]="Guerrero";state_names[13]="Hidalgo";state_names[14]="Jalisco";state_names[15]="Estado de M&eacute;xico";state_names[16]="Michoac&aacute;n";state_names[17]="Morelos";state_names[18]="Nayarit";state_names[19]="Nuevo Le&oacute;n";state_names[20]="Oaxaca";state_names[21]="Puebla";state_names[22]="Quer&eacute;taro";state_names[23]="Quintana roo";state_names[24]="San Luis Potos&iacute;";state_names[25]="Sinaloa";state_names[26]="Sonora";state_names[27]="Tabasco";state_names[28]="Tamaulipas";state_names[29]="Tlaxcala";state_names[30]="Veracruz";state_names[31]="Yucat&aacute;n";state_names[32]="Zacatecas";
+
+      $(function () { 
+
+        $('.area').hover(function () {
+                var id_estado = $(this).data('id-estado');
+                var meid = $(this).attr('id');
+                $('#edo').html(state_names[id_estado]);                
+                //$('#letras'+meid).addClass('listaEdosHover');
+                //$('.escudo').addClass('escudo_img');
+                if(last_selected_id_estado!==null){
+                    //$('.escudo').removeClass(state_class[last_selected_id_estado]);
+                }
+                $('.escudo').addClass(meid);
+            }).mouseout(function () {
+                var meid = $(this).attr('id');
+                //$('#letras'+meid).removeClass('listaEdosHover');
+                //$('.escudo').removeClass(meid);
+                if(last_selected_id_estado!==null){
+                    $('#edo').html(state_names[last_selected_id_estado]);
+                    //$('.escudo').addClass(state_class[last_selected_id_estado]);
+                }else{                    
+                    $('#edo').html("&nbsp;");
+                    $('.escudo').removeClass('escudo_img');
+                    //$('.escudo').attr('class','escudo');
+                }
+            });
+
+        var areaLastClicked=null;
+        var last_selected_id_estado=null;
+        $('.area').click(function (e) {
+                e.preventDefault();
+                var $area = $(this);
+                var meid = $area.attr('id');
+                //$('.area').mouseout();
+                var data = $area.data('maphilight') || {};                    
+                if(areaLastClicked!==null){                        
+                    var lastData = areaLastClicked.data('maphilight') || {};
+                    lastData.alwaysOn=false;
+                    $('#letras'+areaLastClicked.attr('id')).removeClass('listaEdosActive');                        
+                }
+                $('#letras'+meid).addClass('listaEdosActive');
+                areaLastClicked=$area;
+                //data.alwaysOn = !data.alwaysOn;
+                data.alwaysOn = true;
+                $(this).data('maphilight', data).trigger('alwaysOn.maphilight');
+                last_selected_id_estado = $(this).data('id-estado');
+                selectState(last_selected_id_estado);
+        });
+
+        $('.map').maphilight({ fade: true,strokeColor: '950054', fillColor: '950054', fillOpacity: 0.3 });
+        
+      });
+
+  </script>
+
 </head>
-<body class="mat-typography">
+<body>
   <app-root></app-root>
 </body>
 </html>
