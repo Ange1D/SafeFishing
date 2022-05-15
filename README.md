@@ -54,6 +54,10 @@ graph TD;
 
 *Autores:*
 
--[Ange1D](https://github.com/Ange1D).
+- [Ange1D](https://github.com/Ange1D).
 
--[EAleman8](https://github.com/EAleman8).
+- [EAleman8](https://github.com/EAleman8).
+
+- [porfirioclv](https://github.com/porfirioclv).
+
+- [ahranza](https://github.com/ahranza).
