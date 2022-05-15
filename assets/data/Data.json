@@ -1,0 +1,238 @@
+{
+"Zonas":[
+ {
+  "Id": 1,
+  "Nombre": "Golfo de México"
+ },
+ {
+  "Id": 2,
+  "Nombre": "Pacífico Norte"
+ },
+ {
+  "Id": 3,
+  "Nombre": "Pacífico Sur"
+ }
+],
+"Estados":[
+ {
+  "Zona": 1,
+  "Id": 28,
+  "Nombre": "Tamaulipas"
+ },
+ {
+  "Zona": 1,
+  "Id": 30,
+  "Nombre": "Veracrúz"
+ },
+ {
+  "Zona": 1,
+  "Id": 27,
+  "Nombre": "Tabasco"
+ },
+ {
+  "Zona": 1,
+  "Id": 4,
+  "Nombre": "Campeche"
+ },
+ {
+  "Zona": 1,
+  "Id": 31,
+  "Nombre": "Yucatán"
+ },
+ {
+  "Zona": 1,
+  "Id": 23,
+  "Nombre": "Quintana Roo"
+ },
+ {
+  "Zona": 2,
+  "Id": 2,
+  "Nombre": "Baja California"
+ },
+ {
+  "Zona": 2,
+  "Id": 3,
+  "Nombre": "Baja California del Sur"
+ },
+ {
+  "Zona": 2,
+  "Id": 26,
+  "Nombre": "Sonora"
+ },
+ {
+  "Zona": 2,
+  "Id": 25,
+  "Nombre": "Sinaloa"
+ },
+ {
+  "Zona": 2,
+  "Id": 18,
+  "Nombre": "Nayarit"
+ },
+ {
+  "Zona": 3,
+  "Id": 14,
+  "Nombre": "Jalisco"
+ },
+ {
+  "Zona": 3,
+  "Id": 16,
+  "Nombre": "Michoacan"
+ },
+ {
+  "Zona": 3,
+  "Id": 12,
+  "Nombre": "Guerrero"
+ },
+ {
+  "Zona": 3,
+  "Id": 20,
+  "Nombre": "Oaxaca"
+ },
+ {
+  "Zona": 3,
+  "Id": 7,
+  "Nombre": "Chiapas"
+ }
+],
+"Detalle":[
+ {
+  "Zona": 2,
+  "Especie": "Abulon",
+  "Inicio": "02\/01\/2022",
+  "Fin": "08\/31\/2022"
+ },
+ {
+  "Zona": 2,
+  "Especie": "Erizo Rojo",
+  "Inicio": "03\/01\/2022",
+  "Fin": "31\/06\/2022"
+ },
+ {
+  "Zona": 2,
+  "Especie": "Marlin Negro",
+  "Inicio": "01\/01\/2022",
+  "Fin": "04\/30\/2022"
+ },
+ {
+  "Zona": 2,
+  "Especie": "Marlin Azul",
+  "Inicio": "01\/01\/2022",
+  "Fin": "04\/30\/2022"
+ },
+ {
+  "Zona": 2,
+  "Especie": "Cabrilla",
+  "Inicio": "10\/01\/2022",
+  "Fin": "01\/31\/2022"
+ },
+ {
+  "Zona": 2,
+  "Especie": "Dorado",
+  "Inicio": "10\/01\/2022",
+  "Fin": "04\/30\/2022"
+ },
+ {
+  "Zona": 2,
+  "Especie": "Atún Aleta Amarilla",
+  "Inicio": "10\/01\/2022",
+  "Fin": "04\/30\/2022"
+ },
+ {
+  "Zona": 2,
+  "Especie": "Pez Gallo",
+  "Inicio": "10\/01\/2022",
+  "Fin": "04\/30\/2022"
+ },
+ {
+  "Zona": 2,
+  "Especie": "Pez Vela",
+  "Inicio": "12\/01\/2022",
+  "Fin": "05\/30\/2022"
+ },
+ {
+  "Zona": 2,
+  "Especie": "Sierra",
+  "Inicio": "08\/01\/2022",
+  "Fin": "31\/09\/2022"
+ },
+ {
+  "Zona": 2,
+  "Especie": "Snook",
+  "Inicio": "01\/01\/2022",
+  "Fin": "04\/30\/2022"
+ },
+ {
+  "Zona": 2,
+  "Especie": "Marlin Rayado",
+  "Inicio": "07\/01\/2022",
+  "Fin": "10\/31\/2022"
+ },
+ {
+  "Zona": 2,
+  "Especie": "Yellowtail",
+  "Inicio": "09\/01\/2022",
+  "Fin": "12\/31\/2022"
+ },
+ {
+  "Zona": 1,
+  "Especie": "Mero",
+  "Inicio": "02\/01\/2022",
+  "Fin": "03\/31\/2022"
+ },
+ {
+  "Zona": 1,
+  "Especie": "Camarón (todas las especies)",
+  "Inicio": "05\/27\/2022",
+  "Fin": "07\/11\/2022"
+ },
+ {
+  "Zona": 1,
+  "Especie": "Langosta",
+  "Inicio": "03\/01\/2022",
+  "Fin": "06\/30\/2022"
+ },
+ {
+  "Zona": 1,
+  "Especie": "Robalo Blanco",
+  "Inicio": "05\/01\/2022",
+  "Fin": "08\/30\/2022"
+ },
+ {
+  "Zona": 1,
+  "Especie": "Tiburon",
+  "Inicio": "05\/01\/2022",
+  "Fin": "06\/30\/2022"
+ },
+ {
+  "Zona": 1,
+  "Especie": "Caracol Rosado",
+  "Inicio": "05\/01\/2022",
+  "Fin": "10\/31\/2022"
+ },
+ {
+  "Zona": 1,
+  "Especie": "Pulpo Maya",
+  "Inicio": "12\/16\/2022",
+  "Fin": "07\/30\/2022"
+ },
+ {
+  "Zona": 3,
+  "Especie": "Pescado Blanco",
+  "Inicio": "02\/11\/2022",
+  "Fin": "03\/31\/2022"
+ },
+ {
+  "Zona": 3,
+  "Especie": "Lisa",
+  "Inicio": "02\/11\/2022",
+  "Fin": "02\/28\/2022"
+ },
+ {
+  "Zona": 3,
+  "Especie": "Liseta",
+  "Inicio": "02\/11\/2022",
+  "Fin": "02\/28\/2022"
+ }
+]
+}
