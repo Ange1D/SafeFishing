@@ -32,6 +32,17 @@ Por lo que en este proyecto se realiza un mapa interactivo enfocado en las costa
 
 ![imagen](https://github.com/Ange1D/SafeFishing/blob/main/src/assets/imgs/wireframe.jpg?raw=true)
 
+```mermaid
+graph TD;
+    Home-->AboutUs;
+    Home-->HowToHelp;
+    Home-->Map;
+    AboutUs;
+    HowToHelp;
+    Map-->Controller;
+    Controller-->Server;
+```
+
 ## Instalacion
 
 * Clonar el repositorio
