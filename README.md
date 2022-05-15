@@ -52,11 +52,22 @@ graph TD;
 
 Proyecto realizado con [Angular 13](https://angular.io/), [Angular Material](https://material.angular.io/), [Bootstrap](https://getbootstrap.com/) y [TypeScript](https://www.typescriptlang.org/) implementando Github Actions para su deploy en github pages
 
+[Repositorio del API](https://github.com/Ange1D/SafeFishing-API).
 
- # Pagina
-[SafeFishing](https://ange1d.github.io/SafeFishing/home)
 
-*Autores:*
+ # Demo
+[SafeFishing](https://ange1d.github.io/SafeFishing).
+
+
+
+*To do: *
+- Agregar más países.
+- Agregar imágenes de las especies.
+
+
+
+
+## Autores:
 
 - [Ange1D](https://github.com/Ange1D).
 
