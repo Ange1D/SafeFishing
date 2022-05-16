@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./howtohelp.component.css']
 })
 export class HowtohelpComponent implements OnInit {
+  
+  constructor() { 
 
-  constructor() { }
+  }
 
   ngOnInit(): void {
   }
