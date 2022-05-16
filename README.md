@@ -52,7 +52,7 @@ graph TD;
 
 #### Dependencias
 
-Proyecto realizado con [Angular 13](https://angular.io/), [Angular Material](https://material.angular.io/), [Bootstrap](https://getbootstrap.com/) y [TypeScript](https://www.typescriptlang.org/) implementando Github Actions para su deploy en github pages
+Proyecto realizado con [Angular 13](https://angular.io/), [Angular Material](https://material.angular.io/), [Bootstrap](https://getbootstrap.com/) y [TypeScript](https://www.typescriptlang.org/) implementando Github Actions para verificar los Test y realizar su deploy en github pages
 
 [Repositorio del API](https://github.com/Ange1D/SafeFishing-API).
 
