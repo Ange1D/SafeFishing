@@ -1,9 +1,9 @@
 
-.map{                    
-	position: relative;	
+.map{                    	
+	/* width: 100%; */
 }
-#content_mapa{
-	float:right;
+#content_mapa{	
+	width: 100%;
 }
 .content_list_states{
 	float:left;
@@ -23,5 +23,6 @@
 	color: #950054;
 	font-weight: 600;
 }
-
+/*
 .AGU{background-position: 960px 480px;}.BCN{background-position: 840px 480px;}.BCS{background-position: 720px 480px;}.CAM{background-position: 600px 480px;}.COA{background-position: 480px 480px;}.COL{background-position: 360px 480px;}.CHP{background-position: 240px 480px;}.CHH{background-position: 120px 480px;}.DIF{background-position: 960px 360px;}.DUR{background-position: 840px 360px;}.GUA{background-position: 720px 360px;}.GRO{background-position: 600px 360px;}.HID{background-position: 480px 360px;}.JAL{background-position: 360px 360px;}.MEX{background-position: 240px 360px;}.MIC{background-position: 120px 360px;}.MOR{background-position: 960px 240px;}.NAY{background-position: 840px 240px;}.NLE{background-position: 720px 240px;}.OAX{background-position: 600px 240px;}.PUE{background-position: 480px 240px;}.QUE{background-position: 360px 240px;}.ROO{background-position: 240px 240px;}.SLP{background-position: 120px 240px;}.SIN{background-position: 960px 120px;}.SON{background-position: 840px 120px;}.TAB{background-position: 720px 120px;}.TAM{background-position: 600px 120px;}.TLA{background-position: 480px 120px;}.VER{background-position: 360px 120px;}.YUC{background-position: 240px 120px;}.ZAC{background-position: 120px 120px;}
+*/

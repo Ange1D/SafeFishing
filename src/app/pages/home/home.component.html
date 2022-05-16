@@ -74,7 +74,7 @@
     
   
 <!-- Modals -->
-<p-dialog *ngIf="this.selectedDetail" header="Información" [(visible)]="displayDetail" [style]="{width: '50vw'}">
+<p-dialog *ngIf="this.selectedDetail" header="Información" [(visible)]="displayDetail" [style]="{width: '80vw'}">
     <div class="row">
       <div class="col-12">
         <h4>
@@ -89,26 +89,28 @@
     </div>
     <div class="row mt-3">
       <div class="col-12">
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Especie</th>
-              <th scope="col">Inicio Veda</th>
-              <th scope="col">Fin Veda</th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr *ngFor="let item of this.selectedDetail">
-              <th scope="row"> {{ item.Especie }} </th>
-              <td> {{ item.Inicio }} </td>
-              <td> {{ item.Fin }}</td>
-              <td>
-                <span [class]="item.Flag"></span>
-              </td>
-            </tr>          
-          </tbody>
-        </table>
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Especie</th>
+                <th scope="col">Inicio Veda</th>
+                <th scope="col">Fin Veda</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of this.selectedDetail">
+                <th scope="row"> {{ item.Especie }} </th>
+                <td> {{ item.Inicio }} </td>
+                <td> {{ item.Fin }}</td>
+                <td>
+                  <span [class]="item.Flag"></span>
+                </td>
+              </tr>          
+            </tbody>
+          </table>
+        </div>        
       </div>
     </div>
 
