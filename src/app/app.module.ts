@@ -11,6 +11,8 @@ import { HowtohelpComponent } from './pages/howtohelp/howtohelp.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { SafePipe  } from './pipes/safe-pipe.pipe';
+import  {  PdfViewerModule  }  from  'ng2-pdf-viewer';
 
 @NgModule({
   declarations: [
@@ -19,13 +21,15 @@ import { FooterComponent } from './shared/footer/footer.component';
     HowtohelpComponent,
     HomeComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    SafePipe,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    DialogModule, ButtonModule
+    DialogModule, ButtonModule,
+    PdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

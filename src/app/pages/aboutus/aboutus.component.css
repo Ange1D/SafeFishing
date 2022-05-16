@@ -5,3 +5,13 @@ p{
 .title{
     color: #000 !important;
 }
+
+.card-img-top {
+    max-width: 300px;  
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.col{
+    max-width: 350px;
+}
